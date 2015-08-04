@@ -2,22 +2,31 @@ package com.vsplc.android.firstapplication;
 
 import android.app.Activity;
 import android.content.Context;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 import android.widget.Toast;
 
 
 public class MainActivity extends Activity {
 
     private Context context;
+    private TextView tvMarathi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         context = MainActivity.this;
+
+        tvMarathi=(TextView)findViewById(R.id.tvMarathi);
+//        Typeface font = Typeface.createFromAsset(getAssets(), "MarathiFont.ttf");
+//        info.setTypeface(face)
+
+//        tvMarathi.setTypeface(font);
+        tvMarathi.setText("मराठी");
 
         Toast.makeText(context, "Hello from Android Studio..", Toast.LENGTH_SHORT).show();
     }
