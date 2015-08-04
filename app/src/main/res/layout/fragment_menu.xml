@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/MainLL"
+    android:layout_width="280.0dip"
+    android:layout_height="fill_parent"
+    android:background="@color/background_cardmenu"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:clipToPadding="false"
+        android:fadingEdge="none"
+        android:fadingEdgeLength="0.0dip"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@id/MenuContent_Layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.devspark.robototextview.widget.RobotoTextView
+                android:id="@id/tv_number"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/abs__ab_stacked_transparent_dark_holo"
+                android:gravity="center_vertical"
+                android:padding="8.0dip"
+                android:text="@string/Menu1"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/font_color2"
+                app:typeface="roboto_regular" />
+
+            <RadioGroup
+                android:id="@id/MainMenu_Layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/background_cardmenu"
+                android:padding="0.0dip">
+
+                <com.devspark.robototextview.widget.RobotoRadioButton
+                    android:id="@id/radio_home"
+                    android:layout_width="fill_parent"
+                    android:layout_height="64.0dip"
+                    android:background="@drawable/tabmenu_selector_holo_dark"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawableLeft="@drawable/checked_ic_home"
+                    android:drawablePadding="12.0dip"
+                    android:paddingLeft="16.0dip"
+                    android:paddingRight="16.0dip"
+                    android:text="@string/Nav_1"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/checkedtext_selector_holo_dark"
+                    app:typeface="roboto_light" />
+
+                <com.devspark.robototextview.widget.RobotoRadioButton
+                    android:id="@id/radio_random"
+                    android:layout_width="fill_parent"
+                    android:layout_height="64.0dip"
+                    android:background="@drawable/tabmenu_selector_holo_dark"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableLeft="@drawable/checked_ic_random"
+                    android:drawablePadding="12.0dip"
+                    android:paddingLeft="16.0dip"
+                    android:paddingRight="16.0dip"
+                    android:text="@string/Nav_2"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/checkedtext_selector_holo_dark"
+                    app:typeface="roboto_light" />
+
+                <com.devspark.robototextview.widget.RobotoRadioButton
+                    android:id="@id/radio_categories"
+                    android:layout_width="fill_parent"
+                    android:layout_height="64.0dip"
+                    android:background="@drawable/tabmenu_selector_holo_dark"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/checked_ic_category"
+                    android:drawablePadding="12.0dip"
+                    android:paddingLeft="16.0dip"
+                    android:paddingRight="16.0dip"
+                    android:text="@string/Nav_3"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/checkedtext_selector_holo_dark"
+                    app:typeface="roboto_light" />
+
+                <com.devspark.robototextview.widget.RobotoRadioButton
+                    android:id="@id/radio_favoritos"
+                    android:layout_width="fill_parent"
+                    android:layout_height="64.0dip"
+                    android:background="@drawable/tabmenu_selector_holo_dark"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/checked_ic_favorite"
+                    android:drawablePadding="12.0dip"
+                    android:paddingLeft="16.0dip"
+                    android:paddingRight="16.0dip"
+                    android:text="@string/Nav_4"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/checkedtext_selector_holo_dark"
+                    app:typeface="roboto_light" />
+            </RadioGroup>
+
+            <com.devspark.robototextview.widget.RobotoTextView
+                android:id="@id/tv_quote3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/abs__ab_stacked_transparent_dark_holo"
+                android:gravity="center_vertical"
+                android:padding="8.0dip"
+                android:text="@string/Menu2"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/font_color2"
+                app:typeface="roboto_regular" />
+
+            <LinearLayout
+                android:id="@id/OptionsMenu_Layout"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@id/ll_settings"
+                    android:layout_width="fill_parent"
+                    android:layout_height="48.0dip"
+                    android:background="@drawable/holocolors_list_selector_holo_dark"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="12.0dip"
+                    android:paddingRight="16.0dip">
+
+                    <ImageView
+                        android:id="@id/ImageView03"
+                        android:layout_width="24.0dip"
+                        android:layout_height="24.0dip"
+                        android:src="@drawable/ic_action_gear" />
+
+                    <com.devspark.robototextview.widget.RobotoTextView
+                        android:id="@id/RobotoTextView01"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8.0dip"
+                        android:gravity="center_vertical"
+                        android:text="@string/Opt_1"
+                        android:textColor="@color/font_color3"
+                        app:typeface="roboto_light" />
+                </LinearLayout>
+
+                <View
+                    android:id="@id/View01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/scringo_dash_line" />
+
+                <LinearLayout
+                    android:id="@id/ll_rate"
+                    android:layout_width="fill_parent"
+                    android:layout_height="48.0dip"
+                    android:background="@drawable/holocolors_list_selector_holo_dark"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="12.0dip"
+                    android:paddingRight="16.0dip">
+
+                    <ImageView
+                        android:id="@id/ImageView02"
+                        android:layout_width="24.0dip"
+                        android:layout_height="24.0dip"
+                        android:src="@drawable/ic_action_like" />
+
+                    <com.devspark.robototextview.widget.RobotoTextView
+                        android:id="@id/RobotoTextView02"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8.0dip"
+                        android:gravity="center_vertical"
+                        android:text="@string/Opt_2"
+                        android:textColor="@color/font_color3"
+                        app:typeface="roboto_light" />
+                </LinearLayout>
+
+                <View
+                    android:id="@id/View02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/scringo_dash_line" />
+
+                <LinearLayout
+                    android:id="@id/ll_share"
+                    android:layout_width="fill_parent"
+                    android:layout_height="48.0dip"
+                    android:background="@drawable/holocolors_list_selector_holo_dark"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="12.0dip"
+                    android:paddingRight="16.0dip">
+
+                    <ImageView
+                        android:id="@id/ImageView01"
+                        android:layout_width="24.0dip"
+                        android:layout_height="24.0dip"
+                        android:src="@drawable/ic_action_share" />
+
+                    <com.devspark.robototextview.widget.RobotoTextView
+                        android:id="@id/tv_header2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8.0dip"
+                        android:gravity="center_vertical"
+                        android:text="@string/Opt_3"
+                        android:textColor="@color/font_color3"
+                        app:typeface="roboto_light" />
+                </LinearLayout>
+
+                <View
+                    android:id="@id/View03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/scringo_dash_line" />
+
+                <LinearLayout
+                    android:id="@id/ll_contact"
+                    android:layout_width="fill_parent"
+                    android:layout_height="48.0dip"
+                    android:background="@drawable/holocolors_list_selector_holo_dark"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="12.0dip"
+                    android:paddingRight="16.0dip">
+
+                    <ImageView
+                        android:id="@id/imageView1"
+                        android:layout_width="24.0dip"
+                        android:layout_height="24.0dip"
+                        android:src="@drawable/ic_action_mail" />
+
+                    <com.devspark.robototextview.widget.RobotoTextView
+                        android:id="@id/RobotoTextView05"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8.0dip"
+                        android:gravity="center_vertical"
+                        android:text="@string/Opt_4"
+                        android:textColor="@color/font_color3"
+                        app:typeface="roboto_light" />
+                </LinearLayout>
+
+                <View
+                    android:id="@id/View04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/scringo_dash_line" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@id/MenuBanner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.0"
+        android:orientation="vertical" />
+</LinearLayout>

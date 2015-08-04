@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abs__action_bar_default_height">40.0dip</dimen>
+    <dimen name="abs__action_bar_icon_vertical_padding">4.0dip</dimen>
+    <dimen name="abs__action_bar_title_text_size">16.0dip</dimen>
+    <dimen name="abs__action_bar_subtitle_text_size">12.0dip</dimen>
+    <dimen name="abs__action_bar_subtitle_top_margin">-2.0dip</dimen>
+    <dimen name="abs__action_bar_subtitle_bottom_margin">4.0dip</dimen>
+    <dimen name="dialog_width">480.0dip</dimen>
+    <dimen name="dialog_height">240.0dip</dimen>
+    <dimen name="slidingmenu_offset">200.0dip</dimen>
+    <dimen name="action_bar_half">18.0dip</dimen>
+    <dimen name="applogo_height">40.0dip</dimen>
+    <dimen name="menulogo_height">56.0dip</dimen>
+    <dimen name="menu_height">56.0dip</dimen>
+    <dimen name="menu_titleheight">56.0dip</dimen>
+    <dimen name="splashlogo_height">200.0dip</dimen>
+</resources>

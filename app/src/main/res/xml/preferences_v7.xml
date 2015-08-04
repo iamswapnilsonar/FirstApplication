@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/Settings_Category_1">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="shareauthors"
+            android:summary="@string/Settings_Subtitle_12"
+            android:title="@string/Settings_Title_12" />
+        <ListPreference
+            android:defaultValue="1"
+            android:dialogTitle="@string/Settings_Dialogtitle_11"
+            android:entries="@array/Settings_ItemsEntries_11"
+            android:entryValues="@array/Settings_ItemsValues_11"
+            android:key="fbprivacy"
+            android:summary="@string/Settings_Subtitle_11"
+            android:title="@string/Settings_Title_11" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/Settings_Category_2">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="keepscreen"
+            android:summary="@string/Settings_Subtitle_22"
+            android:title="@string/Settings_Title_22" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="hidenotification"
+            android:summary="@string/Settings_Subtitle_23"
+            android:title="@string/Settings_Title_23" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/Settings_Category_3">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="effects_fade"
+            android:summary="@string/Settings_Subtitle_31"
+            android:title="@string/Settings_Title_31" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="effects_swipe"
+            android:title="@string/Settings_Title_32" />
+    </PreferenceCategory>
+</PreferenceScreen>

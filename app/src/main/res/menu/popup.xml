@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/group_popupmenu">
+        <item android:icon="@drawable/ic_action_share" android:id="@id/menu1" android:title="@string/Action_Enviar" />
+        <item android:icon="@drawable/ic_action_copy" android:id="@id/menu2" android:title="@string/Action_Copiar" />
+        <item android:icon="@drawable/ic_action_facebook" android:id="@id/menu3" android:title="@string/Action_Facebook" />
+    </group>
+</menu>

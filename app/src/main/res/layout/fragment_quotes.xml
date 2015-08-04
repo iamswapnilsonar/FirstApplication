@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/quotesLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.jfeinstein.jazzyviewpager.JazzyViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <com.manuelpeinado.numericpageindicator.NumericPageIndicator android:textSize="@dimen/fontsize_smallest_1" android:id="@id/pageIndicator" android:background="@color/background_cardmenu" android:paddingTop="@dimen/simplepading7" android:paddingBottom="@dimen/simplepading7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" />
+</LinearLayout>

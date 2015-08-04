@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="abs__home" />
+    <item type="id" name="abs__up" />
+    <item type="id" name="abs__action_menu_divider" />
+    <item type="id" name="abs__action_menu_presenter" />
+    <item type="id" name="abs__progress_circular" />
+    <item type="id" name="abs__progress_horizontal" />
+    <item type="id" name="jazzy_key" />
+    <item type="id" name="mdContent" />
+    <item type="id" name="mdMenu" />
+    <item type="id" name="md__content" />
+    <item type="id" name="md__menu" />
+    <item type="id" name="md__drawer" />
+    <item type="id" name="mdActiveViewPosition" />
+    <item type="id" name="md__translationX" />
+    <item type="id" name="md__translationY" />
+    <item type="id" name="abs__action_bar_title">false</item>
+    <item type="id" name="abs__action_bar_subtitle">false</item>
+    <item type="id" name="abs__imageButton">false</item>
+    <item type="id" name="abs__textButton">false</item>
+    <item type="id" name="abs__action_mode_close_button">false</item>
+    <item type="id" name="abs__activity_chooser_view_content">false</item>
+    <item type="id" name="abs__expand_activities_button">false</item>
+    <item type="id" name="abs__image">false</item>
+    <item type="id" name="abs__default_activity_button">false</item>
+    <item type="id" name="abs__list_item">false</item>
+    <item type="id" name="abs__icon">false</item>
+    <item type="id" name="abs__title">false</item>
+    <item type="id" name="abs__checkbox">false</item>
+    <item type="id" name="abs__radio">false</item>
+    <item type="id" name="abs__shortcut">false</item>
+    <item type="id" name="abs__action_bar_container">false</item>
+    <item type="id" name="abs__action_bar">false</item>
+    <item type="id" name="abs__action_context_bar">false</item>
+    <item type="id" name="abs__content">false</item>
+    <item type="id" name="abs__split_action_bar">false</item>
+    <item type="id" name="abs__action_mode_bar_stub">false</item>
+    <item type="id" name="abs__action_mode_bar">false</item>
+    <item type="id" name="edit_query">false</item>
+    <item type="id" name="abs__search_bar">false</item>
+    <item type="id" name="abs__search_badge">false</item>
+    <item type="id" name="abs__search_button">false</item>
+    <item type="id" name="abs__search_edit_frame">false</item>
+    <item type="id" name="abs__search_mag_icon">false</item>
+    <item type="id" name="abs__search_plate">false</item>
+    <item type="id" name="abs__search_src_text">false</item>
+    <item type="id" name="abs__search_close_btn">false</item>
+    <item type="id" name="abs__submit_area">false</item>
+    <item type="id" name="abs__search_go_btn">false</item>
+    <item type="id" name="abs__search_voice_btn">false</item>
+    <item type="id" name="content_frame">false</item>
+    <item type="id" name="Background">false</item>
+    <item type="id" name="Banner">false</item>
+    <item type="id" name="View02">false</item>
+    <item type="id" name="BannerAds">false</item>
+    <item type="id" name="loadingads">false</item>
+    <item type="id" name="progressBar1">false</item>
+    <item type="id" name="adView">false</item>
+    <item type="id" name="frame">false</item>
+    <item type="id" name="quote_layout">false</item>
+    <item type="id" name="iv_logosmall">false</item>
+    <item type="id" name="TitleText_Layout">false</item>
+    <item type="id" name="btn_login">false</item>
+    <item type="id" name="tv_category">false</item>
+    <item type="id" name="tv_author">false</item>
+    <item type="id" name="contentLayout">false</item>
+    <item type="id" name="scrollView1">false</item>
+    <item type="id" name="textLayout">false</item>
+    <item type="id" name="tv_quote">false</item>
+    <item type="id" name="tv_autor">false</item>
+    <item type="id" name="buttonsLayout">false</item>
+    <item type="id" name="btn_ok">false</item>
+    <item type="id" name="btn_cancel">false</item>
+    <item type="id" name="colorView">false</item>
+    <item type="id" name="imageView1">false</item>
+    <item type="id" name="textView1">false</item>
+    <item type="id" name="TextView01">false</item>
+    <item type="id" name="tv_title">false</item>
+    <item type="id" name="View01">false</item>
+    <item type="id" name="LinearLayout01">false</item>
+    <item type="id" name="Title_Layout">false</item>
+    <item type="id" name="Color_Layout">false</item>
+    <item type="id" name="Color_Top">false</item>
+    <item type="id" name="ib_fav">false</item>
+    <item type="id" name="tv_subtitle">false</item>
+    <item type="id" name="tv_content">false</item>
+    <item type="id" name="Color_Bottom">false</item>
+    <item type="id" name="ib_send">false</item>
+    <item type="id" name="ib_copy">false</item>
+    <item type="id" name="ib_facebook">false</item>
+    <item type="id" name="com_facebook_picker_list_view">false</item>
+    <item type="id" name="com_facebook_picker_activity_circle">false</item>
+    <item type="id" name="com_facebook_login_activity_progress_bar">false</item>
+    <item type="id" name="com_facebook_picker_row_activity_circle">false</item>
+    <item type="id" name="com_facebook_picker_checkbox">false</item>
+    <item type="id" name="com_facebook_picker_image">false</item>
+    <item type="id" name="com_facebook_picker_profile_pic_stub">false</item>
+    <item type="id" name="com_facebook_picker_title">false</item>
+    <item type="id" name="com_facebook_picker_checkbox_stub">false</item>
+    <item type="id" name="com_facebook_picker_list_section_header">false</item>
+    <item type="id" name="com_facebook_picker_top_bar">false</item>
+    <item type="id" name="com_facebook_picker_done_button">false</item>
+    <item type="id" name="com_facebook_picker_divider">false</item>
+    <item type="id" name="com_facebook_picker_title_bar_stub">false</item>
+    <item type="id" name="com_facebook_picker_title_bar">false</item>
+    <item type="id" name="picker_subtitle">false</item>
+    <item type="id" name="com_facebook_search_bar_view">false</item>
+    <item type="id" name="com_facebook_picker_search_text">false</item>
+    <item type="id" name="com_facebook_usersettingsfragment_logo_image">false</item>
+    <item type="id" name="com_facebook_usersettingsfragment_profile_name">false</item>
+    <item type="id" name="com_facebook_usersettingsfragment_login_button">false</item>
+    <item type="id" name="grid">false</item>
+    <item type="id" name="MainLL">false</item>
+    <item type="id" name="MenuContent_Layout">false</item>
+    <item type="id" name="tv_number">false</item>
+    <item type="id" name="MainMenu_Layout">false</item>
+    <item type="id" name="radio_home">false</item>
+    <item type="id" name="radio_random">false</item>
+    <item type="id" name="radio_categories">false</item>
+    <item type="id" name="radio_favoritos">false</item>
+    <item type="id" name="tv_quote3">false</item>
+    <item type="id" name="OptionsMenu_Layout">false</item>
+    <item type="id" name="ll_settings">false</item>
+    <item type="id" name="ImageView03">false</item>
+    <item type="id" name="RobotoTextView01">false</item>
+    <item type="id" name="ll_rate">false</item>
+    <item type="id" name="ImageView02">false</item>
+    <item type="id" name="RobotoTextView02">false</item>
+    <item type="id" name="ll_share">false</item>
+    <item type="id" name="ImageView01">false</item>
+    <item type="id" name="tv_header2">false</item>
+    <item type="id" name="View03">false</item>
+    <item type="id" name="ll_contact">false</item>
+    <item type="id" name="RobotoTextView05">false</item>
+    <item type="id" name="View04">false</item>
+    <item type="id" name="MenuBanner">false</item>
+    <item type="id" name="progress_container">false</item>
+    <item type="id" name="progress_text">false</item>
+    <item type="id" name="content_container">false</item>
+    <item type="id" name="grid_container">false</item>
+    <item type="id" name="list_container">false</item>
+    <item type="id" name="quotesLayout">false</item>
+    <item type="id" name="pager">false</item>
+    <item type="id" name="pageIndicator">false</item>
+    <item type="id" name="quotesDummyLayout">false</item>
+    <item type="id" name="fragment1">false</item>
+    <item type="id" name="ib_0">false</item>
+    <item type="id" name="pannel">false</item>
+    <item type="id" name="ib_more">false</item>
+    <item type="id" name="tv_quote1">false</item>
+    <item type="id" name="q2_layout">false</item>
+    <item type="id" name="tv_quote2">false</item>
+    <item type="id" name="tv_header">false</item>
+    <item type="id" name="group_popupmenu">false</item>
+    <item type="id" name="menu1">false</item>
+    <item type="id" name="menu2">false</item>
+    <item type="id" name="menu3">false</item>
+</resources>
